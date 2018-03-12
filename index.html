@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tô Salvo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/css/uikit.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
+
+    <!-- Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit-icons.min.js"></script>
+
+  </head>
+  <body>
+    <header>
+      <div class="uk-container">
+        <nav class="uk-navbar-container uk-margin" uk-navbar>
+          <div class="uk-navbar-left">
+            <a class="uk-navbar-item uk-logo" href="#">
+              <img src="assets/img/Logo.png" alt="">
+            </a>
+          </div>
+          <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-visible@m" uk-scrollspy-nav="closest: li; scroll: true; offset: 80;">
+              <li><a href="#comofunciona-nav">Como funciona</a></li>
+              <li><a href="#recebimento-nav">Recebimento</a></li>
+              <li><a href="#contratacao-nav">Contratação</a></li>
+              <li><a href="#porque-nav">Por que fazer</a></li>
+              <li><a href="#duvidas-nav">Duvidas</a></li>
+              <li><a href="#contato-nav">Contato</a></li>
+            </ul>
+            <a href="#offcanvas-slide" class="uk-hidden@m" uk-toggle uk-icon="icon: menu"></a>
+          </div>
+
+          <div id="offcanvas-slide" uk-offcanvas>
+            <div class="uk-offcanvas-bar">
+              <ul class="uk-nav uk-nav-default">
+                <li><a href="#comofunciona-nav">Como funciona</a></li>
+                <li><a href="#recebimento-nav">Recebimento</a></li>
+                <li><a href="#contratacao-nav">Contratação</a></li>
+                <li><a href="#porque-nav">Por que fazer</a></li>
+                <li><a href="#duvidas-nav">Duvidas</a></li>
+                <li><a href="#contato-nav">Contato</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="fullbanner">
+        <div class="uk-container">
+          <div uk-grid>
+            <div class="uk-width-2-3@m">
+              <div class="call">
+                <h1>Dinheiro rápido?</h1>
+                <h2>Transformamos o seu cartão em dinheiro!</h2>
+              </div>
+            </div>
+
+            <div class="uk-width-1-3@m">
+              <form class="simula" action="index.html" method="post">
+                <div class="uk-grid-small" uk-grid>
+                  <h3>Simule agora!</h3>
+                  <div class="uk-width-1-1">
+                    <input type="text" name="nome" placeholder="Seu nome">
+                  </div>
+                  <div class="uk-width-1-1">
+                    <input type="email" name="email" placeholder="Seu melhor e-mail">
+                  </div>
+                  <div class="uk-width-1-1">
+                    <input type="text" id="telefone" name="telefone" placeholder="Seu telefone (WhatsApp)">
+                  </div>
+                  <div class="uk-width-2-3@s">
+                    <input type="text" name="cidade" placeholder="Cidade">
+                  </div>
+                  <div class="uk-width-1-3@s">
+                    <input type="text" name="estado" placeholder="Estado">
+                  </div>
+                  <div class="uk-width-1-1">
+                    <input type="number" name="valor" placeholder="Qual o valor do empréstimo?">
+                  </div>
+                  <div class="uk-width-1-1">
+                    <input type="number" name="parcela" placeholder="Pagar em quantas parcelas?">
+                  </div>
+
+                  <!-- Obrigado pelo envio -->
+                  <div class="uk-width-1-1 uk-text-center">
+                    <p>Obrigado. Enviaremos a simulação para o seu e-mail. Confira em instantes!</p>
+                  </div>
+
+                  <div class="uk-width-1-1">
+                    <input type="submit" value="Simular">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <img class="cartao cartaoazul uk-visible@m" src="assets/img/cartaoazul.png" alt="">
+        <img class="cartao cartaoroxo uk-visible@m" src="assets/img/cartaoroxo.png" alt="">
+        <img class="cartao cartaoverde uk-visible@m" src="assets/img/cartaoverde.png" alt="">
+      </div>
+    </div>
+
+    <div id="comofunciona-nav" class="comofunciona">
+      <div class="uk-container">
+        <h3>Como Funciona?</h3>
+        <h4><span>Empréstimo pessoal à vista,</span><br>utilizando o limite do seu cartão de crédito</h4>
+
+        <div class="icones" uk-grid>
+          <div class="uk-width-1-2 uk-width-1-4@m">
+            <img class="icon" src="assets/img/ampulheta.png" alt="">
+            <p>Não espere! Dinheiro em conta em até 24h</p>
+          </div>
+
+          <div class="uk-width-1-2 uk-width-1-4@m">
+            <img class="icon" src="assets/img/mao.png" alt="">
+            <p>Taxas reduzidas para não te complicar</p>
+          </div>
+
+          <div class="uk-width-1-2 uk-width-1-4@m">
+            <img class="icon" src="assets/img/lupa.png" alt="">
+            <p>Análise rápida e descomplicada</p>
+          </div>
+
+          <div class="uk-width-1-2 uk-width-1-4@m">
+            <img class="icon" src="assets/img/calendario.png" alt="">
+            <p>Agendamento no mesmo dia!</p>
+          </div>
+        </div>
+
+        <h4>3 simples passos para você receber dinheiro</h4>
+
+        <div class="passos" uk-grid>
+          <div class="uk-width-1-3@m">
+            <div class="circle"> 1 </div>
+            <p>Agende seu horário</p>
+          </div>
+
+          <div class="uk-width-1-3@m">
+            <div class="circle"> 2 </div>
+            <p>Passe o seu cartão na máquina</p>
+          </div>
+
+          <div class="uk-width-1-3@m">
+            <div class="circle"> 3 </div>
+            <p>Receba o valor à vista, na hora.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="recebimento-nav" class="recebimento">
+      <div class="uk-container">
+        <h3>Recebimento</h3>
+        <h4>Transferência na hora para a sua <br><strong>conta bancária</strong> ou <strong>Cartão pré-pago*.</strong> </h4>
+        <p><img src="assets/img/cartaozuum.png" alt=""></p>
+        <p>* compensação em até 24h</p>
+      </div>
+    </div>
+
+    <div id="contratacao-nav" class="contratacao">
+      <div class="uk-container">
+        <h3>Contratação</h3>
+        <p class="uk-text-center">
+          A contratação do empréstimo pessoal TÔ SALVO é <b>de acordo com o limite disponível no seu cartão de crédito.</b>
+          Na hora! Basta vir até a nossa sede munido do seu cartão e faremos o processo para liberação do valor em sua conta bancária ou cartão pré-pago.
+        </p>
+        <img src="assets/img/reais.png" alt="">
+      </div>
+    </div>
+    <div class="alerta">
+      <div class="uk-container">
+        <h4>O Recebimento é à vista, mas você paga parcelado direto na sua fatura!</h4>
+      </div>
+    </div>
+
+    <div id="porque-nav" class="porque">
+      <div class="uk-container">
+        <div class="uk-flex uk-flex-middle" uk-grid>
+          <div class="uk-width-1-5 uk-visible@m">
+            <img src="assets/img/boy.png" alt="">
+          </div>
+          <div class="uk-width-3-5@m uk-text-center">
+            <h3>Por que devo fazer um empréstimo?</h3>
+            <p>Baiscamente, reorganizar as finanças</p>
+            <p>Se o empréstiomo for realizado de maneira consciente e responsável é possível realizar um sonho, uma viagem, quitar antigas dívidas, investir no próprio negócio, evitar juros de cheque especial e, melhor ainda:<br>mais folga no orçamento da sua famímia</p>
+
+            <ul class="contas">
+              <li>Parcela da casa própria</li>
+              <li>Parcela do automóvel</li>
+              <li>IPVA</li>
+              <li>Seguro</li>
+              <li>Energia elétrica</li>
+              <li>Aluguel</li>
+              <li>Água</li>
+              <li>Supermercado</li>
+              <li>Plano de sáude</li>
+              <li>Farmácia</li>
+              <li>Lazer</li>
+              <li>Viagens</li>
+              <li>Reforma</li>
+              <li>Escola</li>
+              <li>Alimentação</li>
+              ...
+            </ul>
+            <p>Às vezes, uma ajudinha vai bem!</p>
+          </div>
+          <div class="uk-width-1-5 uk-visible@m">
+            <img src="assets/img/muitascontas.png" alt="">
+          </div>
+
+          <div class="uk-width-1-2 uk-hidden@m">
+            <img src="assets/img/boy.png" alt="">
+          </div>
+          <div class="uk-width-1-2 uk-hidden@m">
+            <img src="assets/img/muitascontas.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="duvidas-nav" class="duvidas">
+      <div class="uk-container">
+        <h3>Dúvidas</h3>
+        <ul uk-accordion>
+          <li class="uk-open">
+            <a class="uk-accordion-title" href="#">1. Qual a diferença entre sacar dinheiro usando o limite do cartão de crédito e realizar um empréstimo Tô Salvo?</a>
+            <div class="uk-accordion-content">O empréstimo Tô Salvo utilizará todo o limite do seu cartão, diferente do saque em dinheiro do seu cartão que só permite cerca de 30% do seu limite total.
+Ainda assim o nosso empréstimo é mais barato, uma vez que operadoras de cartões cobram taxas muito agressivas.</div>
+          </li>
+          <li>
+            <a class="uk-accordion-title" href="#">2. É seguro fazer o empréstimo Tô Salvo?</a>
+            <div class="uk-accordion-content">É totalmente seguro, rápido e descomplicado, como uma compra qualquer do dia-a-dia.
+Basta apenas passar o cartão na máquina Tô Salvo e digitar a senha do cartão.</div>
+          </li>
+          <li>
+            <a class="uk-accordion-title" href="#">3. Em quanto tempo o valor do empréstimo é disponibilizado?</a>
+            <div class="uk-accordion-content">Conta bancária: em até 2 horas.
+Cartão pré-pago: em até 24h.</div>
+          </li>
+          <li>
+            <a class="uk-accordion-title" href="#">4. Quem pode realizar um empréstimo à vista Tô Salvo?</a>
+            <div class="uk-accordion-content">Pessoa física ou jurídica, desde que munidos de documentação pessoal (CNH, RG e Comprovante de residência) para comprovar ser portador do cartão de crédito.</div>
+          </li>
+          <li>
+            <a class="uk-accordion-title" href="#">5. E se eu estiver utilizando cartão de crédito de terceiros?</a>
+            <div class="uk-accordion-content">Não tem problema, porém a transferência do valor será realizada somente para a conta bancária (ou cartão pré-pago) do portador do cartão de crédito.
+Faremos contato com o portador para que haja prévia autorização.</div>
+          </li>
+          <li>
+            <a class="uk-accordion-title" href="#">6. É preciso ter conta em banco?</a>
+            <div class="uk-accordion-content">Não. Para estes casos depositaremos o valor em um cartão pré-pago, que lhe permitirá realizar qualquer tipo de compra, saque, consulta a saldo etc.</div>
+          </li>
+          <li>
+            <a class="uk-accordion-title" href="#">7. O cartão pré-pago tem custo de aquisição?</a>
+            <div class="uk-accordion-content">Não. Apenas as funções de serviço, como: saques, transferências, troca de senha, pagamentos de contas, etc.
+Consulte tabela de custos.</div>
+          </li>
+          <li>
+            <a class="uk-accordion-title" href="#">8. Como realizar o empréstimo?</a>
+            <div class="uk-accordion-content">Venha até a sede para realizar o procedimento.</div>
+          </li>
+          <li>
+            <a class="uk-accordion-title" href="#">9. Qual o limite para empréstimo?</a>
+            <div class="uk-accordion-content">De acordo com o saldo disponível no seu cartão de crédito.</div>
+          </li>
+          <li>
+            <a class="uk-accordion-title" href="#">10. E se eu tiver restrições em órgãos financeiros?</a>
+            <div class="uk-accordion-content">O nosso empréstimo não possui conexão com órgãos financeiros, bastando apenas ter saldo disponível no seu cartão de crédito.</div>
+          </li>
+          <li>
+            <a class="uk-accordion-title" href="#">11. Em quantas parcelas poderei pagar o empréstimo?</a>
+            <div class="uk-accordion-content">Em 4, 6, 8, 10 ou 12 parcelas.</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="contato-nav" class="local">
+      <div class="rp">
+        <div class="uk-container">
+          <h3>Estamos em Ribeirão Preto/SP<br>Veja a localização:</h3>
+        </div>
+        <div class="mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.350650064172!2d-47.80149768451147!3d-21.17822498591757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9bf1cc7a9ef5b%3A0xaebcd49d8258a704!2sPagPop!5e0!3m2!1spt-BR!2sbr!4v1520430003590" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="uk-container">
+        <div class="uk-flex uk-flex-middle" uk-grid>
+          <div class="uk-width-2-3@m">
+            <p>Rua Henrique Dumont, 321 - Jd. Mosteiro - Ribeirão Preto / SP</p>
+            <a href="mailto:contato@tosalvo.com.br">contato@tosalvo.com.br</a>
+          </div>
+          <div class="uk-width-1-3@m desk-text-right">
+
+            <a href="https://api.whatsapp.com/send?phone=5511989586704">
+              <img src="assets/img/celular.png" alt="">
+              <img src="assets/img/icone-whatsapp.svg" alt="">
+               11 98958 6704
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
